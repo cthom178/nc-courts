@@ -1,0 +1,44 @@
+header{
+  margin-top: 0;
+  background-image: url("../imgs/web_Putnam2.jpg");
+  background-size: 100%;
+  position: relative;
+  width: 100%;
+  background-color: blue;
+  height:300px;
+}
+header h1{
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+nav{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+nav a{
+  text-align: center;
+  display: inline-block;
+  background-color: red;
+  font-size: 30px;
+  padding: 20px 0 20px 0;
+  width: 25%;
+  float:left;
+}
+.left{
+  display:block;
+  background-color:blue;
+  width:20%;
+  float:left;
+  padding-bottom:100%;
+  padding-top: 0;
+  position: absolute;
+  top: 308px;
+}
+.right{
+  width:70%;
+  position:absolute;
+  right:5%;
+}
